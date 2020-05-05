@@ -291,7 +291,6 @@ class User_c extends CI_Controller {
 	}
 
 
-
 	public function cetak_data_user() 
 	{
 		$pdf = new TCPDF('P', 'mm', 'A4', true, 'UTF-8', false);
@@ -317,6 +316,12 @@ class User_c extends CI_Controller {
 	public function errors() 
 	{
 		$this->load->view( 'errors/404' );
+	}
+
+
+	public function testingCode()
+	{
+		echo 'test<br>aaaaaaaaaa';
 	}
 
 }
