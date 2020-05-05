@@ -321,7 +321,7 @@ class User_c extends CI_Controller {
 
 	public function testingCode()
 	{
-		echo 'test<br>aaaaaaaaaa';
+		echo 'hhhhhhhhhhhhhhh';
 	}
 
 }
